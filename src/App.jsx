@@ -1,14 +1,14 @@
-
-import './App.css'
-import CheckCarpark from './components/CheckCarpark'
+import "./App.css";
+import CheckCarpark from "./components/CheckCarpark";
+import CarparkNumber from "./components/CarparkNumber";
 
 function App() {
-  
   return (
     <>
-    <CheckCarpark />
+      <CheckCarpark />
+      <CarparkNumber />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

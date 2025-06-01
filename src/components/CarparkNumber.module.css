@@ -1,0 +1,126 @@
+.table {
+  border-collapse: collapse;
+  margin: 10px 0;
+  font-size: 0.9em;
+  height: 100px;
+  width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.table td {
+  padding: 6px 3px;
+  /* text-align: center; */
+  text-align: left;
+}
+
+.table th:nth-child(1),
+.table td:nth-child(1) {
+  text-align: left;
+}
+.table tbody tr {
+  border-bottom: 2px solid lightgray;
+}
+.table tbody tr:nth-of-type(even) {
+  background-color: lightblue;
+}
+
+.label {
+  font-family: Georgia;
+  font-size: 15px;
+  padding: 2px;
+}
+
+.chkboxlabel {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.chkbox {
+  margin-right: 5px;
+  accent-color: green;
+}
+
+.selectlist {
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 5px;
+}
+.closebtn {
+  font-family: Arial;
+  height: 30px;
+  width: 80px;
+  font-size: 15px;
+  padding: 2px;
+  border-radius: 0 5px 0 5px;
+  background-color: #0d6efd;
+  color: white;
+  margin: 5px;
+}
+
+.searchbtn {
+  font-family: Arial;
+  height: 30px;
+  width: 80px;
+  font-size: 15px;
+  padding: 2px;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: #0d6efd;
+  color: white;
+}
+
+.msgbox {
+  height: 250 px;
+  width: 100%;
+  border: 2px;
+  border-radius: 1px;
+}
+.msgheader {
+  height: 30px;
+  width: 100%;
+  /* background-color: red; */
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Courier;
+  text-align: center;
+  padding: 0 0 3px 0;
+  color: red;
+}
+
+.msgbody {
+  font-size: 20px;
+  font-family: Courier;
+  color: red;
+}
+
+.errbtn {
+  font-family: Georgia;
+  font-size: 18px;
+  height: 30px;
+  width: 60px;
+  padding: 2px;
+  border-radius: 0px 5px 0 5px;
+  background-color: lightpink;
+  color: red;
+}
+
+.popupoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupbox {
+  /* background: white; */
+  background-color: lightyellow;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
