@@ -4,12 +4,12 @@ function SearchForm({ location, setLocation, onCheck, loading }) {
   return (
     <Form className="mb-3">
       <Form.Group as={Row} controlId="carparkSearch">
-        <Form.Label column sm={2}>Enter Address:</Form.Label>
-        <Col sm={8}>
+        <Form.Label column sm={4}>Enter Your Location Address Or Postal Code:</Form.Label>
+        <Col sm={6}>
           <Form.Control
             type="text"
             value={location}
-            placeholder="e.g. 2A Dover Road"
+            placeholder="e.g. 2A Dover Road or 131002"
             onChange={(e) => setLocation(e.target.value)}
           />
         </Col>
